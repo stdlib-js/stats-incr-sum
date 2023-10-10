@@ -63,6 +63,11 @@ s = \sum_{i=0}^{n-1} x_i
 ## Usage
 
 ```javascript
+import incrsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-sum@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-sum/tags). For example,
+
+```javascript
 import incrsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-sum@v0.1.1-deno/mod.js';
 ```
 
@@ -117,7 +122,7 @@ sum = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-sum@v0.1.1-deno/mod.js';
+import incrsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-sum@deno/mod.js';
 
 var accumulator;
 var v;
